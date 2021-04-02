@@ -8,5 +8,8 @@ class TestHero(TestCase):
         chengyaojin = ChengYaoJin()
         libai = LiBai()
         assert chengyaojin.fight(libai) == True
+
+        chengyaojin = ChengYaoJin()
+        libai = LiBai()
         assert libai.fight(chengyaojin) == False
 
